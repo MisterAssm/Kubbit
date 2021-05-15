@@ -14,5 +14,6 @@ fun Project.kubbitProject() {
         "compileOnly"(Dependencies.bukkit)
 
         "implementation" (kotlin("stdlib-jdk8"))
+        "implementation" (Dependencies.coroutine)
     }
 }
