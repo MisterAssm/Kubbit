@@ -1,3 +1,3 @@
 
-rootProject.name = "kubbit"
+rootProject.name = "kubbit-parent"
 include("kubbit")
