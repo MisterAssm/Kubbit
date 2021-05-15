@@ -3,5 +3,5 @@ object Dependencies {
 }
 
 object Version {
-    const val bukkit = "1.12.2-R0.1-SNAPSHOT"
+    const val bukkit = "1.8.8-R0.1-SNAPSHOT"
 }
