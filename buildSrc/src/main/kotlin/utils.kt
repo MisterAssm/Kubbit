@@ -11,6 +11,8 @@ fun Project.kubbitProject() {
     }
 
     this.dependencies {
-        "compileOnly"("org.bukkit", "bukkit", "1.12.2-R0.1-SNAPSHOT")
+        "compileOnly"(Dependencies.bukkit)
+
+        "implementation" (kotlin("stdlib-jdk8"))
     }
 }
